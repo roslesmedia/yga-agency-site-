@@ -1,0 +1,21 @@
+# Design and interaction notes
+
+The central object is a yellow YGA structure: a creator's world becoming a digital-product business. Chrome devices and a cobalt stage make the white canvas feel architectural. The same vocabulary returns in the dimensional workbook, orbital process graphic, large zero and blue final arrow.
+
+The hierarchy uses a condensed, original YGA Signal display alphabet and a quiet system sans-serif for explanatory copy. Primary color is electric yellow `#e8ff00`; cobalt `#2453ff` carries active states and depth. Text is `#111111` on white. Large letterforms, asymmetry and sectional contrasts give the page its rhythm.
+
+Motion serves a sequence: discover an audience need, explore a product, move toward launch. The 3D camera follows the hero scroll and responds to explicit controls. Sections receive short entrance animations. Product-format changes rotate the artwork; process choices change its graphic; FAQ and dialogs open with brief transitions. Native scrolling, visible focus, explicit scene controls, pausing and reduced-motion preferences remain available.
+
+Version 2 expands this into four independently addressable pages. Native View Transitions provide a clipped page reveal; browsers without that API receive a branded yellow curtain. The home page gains a three-act scroll-controlled device sequence. The approach page pairs a sticky index with six detailed chapters; the custom-products page uses interactive dimensional covers and explanatory product dialogs; the studio page uses kinetic typography and stacked principles. Animation uses CSS and WAAPI, with no additional packages. Browser history and direct static page entry remain available.
+
+All offer copy now describes full bespoke production: audience and niche research, original product content, writing, structure, design and finished delivery. Each product is created around the specific creator's content, brand and expertise. Template-pack positioning has been removed. Courses are creator-led; YGA develops the curriculum, lesson content, scripts and agreed production while the real creator records teaching where necessary.
+
+The pop-ups are intentional actions, not timed interruptions. A dismissible suggestion appears after some browsing; its quiz provides an exploratory starting point without collecting data. Marketing entrances use short group staggers; frequently used controls keep quicker feedback. A global pause and reduced-motion variants cover both DOM effects and the WebGL scene.
+
+Reference for feature-detected page transitions: https://developer.mozilla.org/en-US/docs/Web/API/Document/startViewTransition
+
+Applied guidance includes the installed premium-3d-website, frontend-design, design-taste-frontend, high-end-visual-design, 3d-web-experience, scroll-experience, animate, fixing-accessibility, fixing-motion-performance and API security skills. The Sites workflow governs source synchronization and the requested public preview. Only relevant skills were applied; unrelated database, billing, messaging and presentation skills were not used.
+
+This is an implemented design, not a claim of an award or a particular commercial valuation. Browser-based art-direction review is still needed before launch. The procedural WebGL scene is original and compact; it does not use an externally commissioned photorealistic model. The single-file preview uses the exact source assets and interactions, not a generated screenshot.
+
+Version 3 gives scrolling an unmistakable pop-forward rhythm. Headline words rise and rotate out of perspective, briefly overshoot, then settle. Copy lifts in, alternating rows slide from either side, panels tilt forward and dimensional objects land with a larger entrance. These are one-shot viewport entrances on both desktop and phones. Transform and opacity animation avoids moving the document flow; keyboard focus reveals content immediately. Page transitions settle old entrances before capturing snapshots, and pause or reduced motion exposes all content. Mobile keeps the full scroll-driven 3D story and WebGL camera journey; it uses native touch scrolling, smaller distances and a compact sticky stage. Public source exports let another builder read the exact implemented website.

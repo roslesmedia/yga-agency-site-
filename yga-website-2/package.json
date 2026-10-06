@@ -1,0 +1,13 @@
+{
+  "name": "yga-website",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/app.js && node --check public/scene.js && node --check public/experience.js && node --check public/router.js && node --check public/pop-reveals.js && node --check api/apply.js && node --test tests/*.test.mjs"
+  }
+}
