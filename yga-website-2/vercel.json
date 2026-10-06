@@ -1,6 +1,16 @@
 {
+  "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/approach", "destination": "/approach/index.html" },
+    { "source": "/approach/", "destination": "/approach/index.html" },
+    { "source": "/products", "destination": "/products/index.html" },
+    { "source": "/products/", "destination": "/products/index.html" },
+    { "source": "/studio", "destination": "/studio/index.html" },
+    { "source": "/studio/", "destination": "/studio/index.html" }
+  ],
   "functions": { "api/*.js": { "maxDuration": 30 } },
   "headers": [{
     "source": "/(.*)",
